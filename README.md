@@ -23,7 +23,7 @@ All of this data is processed using **Python** and **pandas**, and stored in a *
 ---
 
 ## 🧩 Architecture
-
+```text
 +-------------------+
 |  External Sources |
 |-------------------|
@@ -55,7 +55,7 @@ All of this data is processed using **Python** and **pandas**, and stored in a *
 |  Automation Layer |
 | (Cloud Functions) |
 +-------------------+
-
+```
 ---
 
 ## 🌍 Why the Cloud?
@@ -86,7 +86,7 @@ While debugging Cloud Functions directly can be difficult, we developed and test
 ---
 
 ## 🗂️ Repository Structure
-
+```
 📁 Gans-Data-Engineering
 │
 ├── cities.py          # Extracts city-level data (name, country, etc.)
@@ -98,7 +98,7 @@ While debugging Cloud Functions directly can be difficult, we developed and test
 ├── utils.py           # Helper functions for cleaning and transforming data
 ├── requirements.txt   # Python dependencies
 └── README.md          # Project documentation
-
+``
 ---
 
 ## ⚙️ Setup & Installation

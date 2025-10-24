@@ -104,26 +104,33 @@ While debugging Cloud Functions directly can be difficult, we developed and test
 ## ⚙️ Setup & Installation
 
 ### 1️⃣ Clone this repository
+```bash
 git clone https://github.com/hasanerdin/gans-data-engineering.git
 cd gans-data-engineering
+```
 
 ### 2️⃣ Install dependencies
+```bash
 pip install -r requirements.txt
+```
 
 ### 3️⃣ Set up your environment variables
 Go to utils.py and write your informations.
-
-RAPID_API_KEY=your_api_key
-WEATHER_API_KEY=your_api_key
-schema=your_db_schema_name
-host=your_gcb_ip_address
-password=your_gcp_password
+```bash
+RAPID_API_KEY = "your_api_key"
+WEATHER_API_KEY = "your_api_key"
+schema = "your_db_schema_name"
+host = "your_gcp_ip_address"
+password = "your_gcp_password"
+```
 
 ### 4️⃣ Run locally
+```python
 python cities.py
 python population.py
 python airport.py
 python request.py
+```
 
 ### 5️⃣ Deploy to Google Cloud
 Make sure your main.py contains a properly defined entry point:

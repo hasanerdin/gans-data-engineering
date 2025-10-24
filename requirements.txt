@@ -1,0 +1,7 @@
+# requirements for Web Scraping project
+requests
+beautifulsoup4
+pandas
+functions_framework
+pytz
+flask

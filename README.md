@@ -98,7 +98,7 @@ While debugging Cloud Functions directly can be difficult, we developed and test
 ├── utils.py           # Helper functions for cleaning and transforming data
 ├── requirements.txt   # Python dependencies
 └── README.md          # Project documentation
-``
+```
 ---
 
 ## ⚙️ Setup & Installation
